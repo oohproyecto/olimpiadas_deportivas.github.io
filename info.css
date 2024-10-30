@@ -1,0 +1,169 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    scroll-padding-top: 2rem;
+    font-family: "poppins", sans-serif;
+}
+header a{
+    font-size: 18px;
+    font-family: serif;
+}
+header {
+    background-color: #FCAD3D;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 5%;
+}
+.logo{
+    cursor: pointer;
+    height: 80px;
+    width: auto;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    background-color: #FCAD3D;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 8px 16px;
+    display: block;
+    transition: .5s;
+}
+
+nav ul li a:hover {
+    background-color: #865a1c;
+    border-radius: 4px;
+}
+.container {
+    margin: 10%;
+    /* border-width: 60px;
+    border-style: solid;
+    border-color: transparent;
+    border-image: linear-gradient(to right, rgb(248, 131, 131), rgb(222, 240, 121));
+    border-image-slice: 1;
+    padding: 20px; */
+}
+
+.container h1{
+    font-family: "Homer Simpson UI";
+    font-size: 4rem;
+    line-height: 0.5em;
+    text-align: center;
+    color: rgb(180, 24, 24);
+}
+
+.container p{
+    margin: 1em auto;
+    font-size: 1em;
+    line-height: 1.5em;
+}
+.container h2{
+    font-size: 2.5em;
+    line-height: 1.05em;
+    letter-spacing: -.02em;
+    margin: 1em auto ;
+    color: rgb(187, 75, 30);
+}
+.container img{
+    width: 80%;
+    height: 80%;
+}
+.container h3{
+    font-size: 1.5em;
+    line-height: 1.05em;
+    letter-spacing: -.02em;
+    margin: 1.8em auto 0.65em;
+    color: rgb(187, 75, 30);
+}
+ul {
+    list-style-type: circle;
+    line-height: 1em;
+}
+button{
+    background-color: rgb(255, 255, 255); 
+    border: 2px solid #470808;
+    margin: 3px;
+    color: black; 
+    padding: 14px 28px; 
+    cursor: pointer; 
+    border-radius: 5px; 
+}
+button:hover{
+    background-color: #ffa9a9; 
+}
+:root {
+
+    --main-color: #d81f1f;
+    --text-color: #000000;
+
+}
+
+body {
+    position: relative;
+    width: 100%;
+    height: auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    align-items: center;
+    text-align: center;
+    margin: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #2e1414;
+}
+
+.cards-container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.cards-container .card {
+    display: flex;
+    width: 300px;
+    margin: 20px;
+    padding: 20px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    border: 2px solid var(--main-color);
+    border-radius: 10px;
+}
+.cards-container p
+{
+    color: #000000;
+}
+.card a:hover{
+    background: rgb(114, 37, 37);
+}
+.card:hover{
+    transform: scale(105%);
+}
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    width: 100%;
+    border-bottom: 0;
+    font-family: serif;
+}

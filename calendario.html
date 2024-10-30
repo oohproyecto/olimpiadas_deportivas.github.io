@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calendario con Recordatorios</title>
+    <link rel="stylesheet" href="calendario.css">
+</head>
+<body>
+    <header>
+        <img class="logo" src="img/cefa.png" alt="logo">
+        <nav>
+            <ul>
+                <li><a href="1.html">¿Quiénes Somos?</a></li>
+                <li><a href="voley.html">Vóleibol</a></li>
+                <li><a href="basquet.html">Baloncesto</a></li>
+                <li><a href="calendario.html">Calendarios</a></li>
+                <li><a href="grados.html">Grados y Grupos</a></li>
+            </ul>
+        </nav>
+        <img class="logo" src="img/pascual.png" alt="logo">
+    </header>
+    <div class="calendar-container">
+        <div class="calendar">
+            <div class="calendar-header">
+                <button id="prev-month">◀</button>
+                <div id="month-year"></div>
+                <button id="next-month">▶</button>
+            </div>
+            <div class="calendar-body">
+                <div class="calendar-days">
+                    <div>Dom</div>
+                    <div>Lun</div>
+                    <div>Mar</div>
+                    <div>Mié</div>
+                    <div>Jue</div>
+                    <div>Vie</div>
+                    <div>Sáb</div>
+                </div>
+                <div class="calendar-grid" id="calendar-grid"></div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <div id="reminder-modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Añadir Recordatorio</h2>
+            <input type="text" id="reminder-text" placeholder="Escribe tu recordatorio">
+            <button id="save-reminder">Guardar</button>
+        </div>
+    </div>
+    <div>
+    <footer>
+        <p>        Nicole hincapie | Alison ochoa | Sara ortiz | Sara oliveros | Ashley zapata | 11 informatica 2
+<br><br>
+            © 2024 Todos los derechos reservados.</p>
+    </footer>
+</div>
+    <script src="calendario.js"></script>
+</body>
+</html>
